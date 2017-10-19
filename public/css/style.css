@@ -3312,7 +3312,7 @@ Styles for smaller devices
 
   nav .navbar-collapse .navbar-right > li > a {
     font-weight: 400;
-    font-size: 12.5px;
+    font-size: 15 px;
     padding: 8px 0 4px;
     border-bottom: 2px solid transparent;
     -webkit-transition: border 0.25s ease, font-size 0.25s ease;
@@ -3378,7 +3378,7 @@ Styles for smaller devices
   }
 
   nav .navbar-collapse .navbar-right > li > a {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   nav .btn-getnow {

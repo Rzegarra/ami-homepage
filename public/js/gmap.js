@@ -2,9 +2,9 @@
 
 if ($("#googleMap").length > 0)
 {
-    // These are the values for your desired longitude and latitude
-    var lat=-16.409047;
-    var long=-71.537451;
+    // These are ubication 
+    var lat=-16.390926;
+    var long=-71.543473;
     
     var myCenter = new google.maps.LatLng(
         lat, long 
@@ -17,7 +17,7 @@ if ($("#googleMap").length > 0)
         });
         var map = new google.maps.Map(document.getElementById("googleMap"), {
             center: myCenter,
-            zoom: 12,
+            zoom: 17,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             scrollwheel: false,
             mapTypeControl: false,
@@ -36,6 +36,6 @@ if ($("#googleMap").length > 0)
     }
 
     google.maps.event.addDomListener(window, "load", function () {
-        changeMarker("img/contact/location-color-1.png");
+        changeMarker("img/contact/location-color-4.png");
     });
 }
