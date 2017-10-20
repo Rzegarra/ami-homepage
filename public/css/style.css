@@ -3973,7 +3973,7 @@ Styles for smaller devices
   }
 
   .sec-team .row > [class^="col-"]:last-child {
-    margin-bottom: 0;
+    margin-bottom: 30;
   }
 
   .sec-team .wrapper {
@@ -4300,16 +4300,19 @@ Styles for smaller devices
     margin-bottom: 30px;
   }
 
-  .sec-team .row > [class^="col-"]:nth-last-child(1),
+  /* .sec-team .row > [class^="col-"]:nth-last-child(1),
   .sec-team .row > [class^="col-"]:nth-last-child(2) {
     margin-bottom: 0;
-  }
+  } */
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
   .sec-steps .row.row-2 [class^="col-"].step-2 .step-desc {
     margin: 0 auto;
     width: 223px;
+  }
+  .sec-team .row > [class^="col-"] {
+    margin-bottom: 30px;
   }
 }
 
@@ -4319,6 +4322,9 @@ Styles for smaller devices
   .sec-steps .row.row-2 [class^="col-"].step-3 img,
   .sec-steps .row.row-2 [class^="col-"].step-3 .step-desc {
     width: 223px;
+  }
+  .sec-team .row > [class^="col-"] {
+    margin-bottom: 30px;
   }
 }
 
@@ -4341,5 +4347,8 @@ Styles for smaller devices
   .sec-features [class^="col-"]:not(.container-acting).feat-bottom-right {
     right: 20px;
     bottom: 30px;
+  }
+  .sec-team .row > [class^="col-"] {
+    margin-bottom: 30px;
   }
 }
