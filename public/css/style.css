@@ -1,5 +1,6 @@
-
-
+/*--------------------------------
+IMPORT FONTS END
+----------------------------------*/
 .garbage {
   color: #ffff00;
 }
@@ -177,7 +178,7 @@ nav.bg-solid {
 }
 
 nav.bg-solid .navbar-header .navbar-toggle .icon-bar {
-  background-color: #725ce6;
+  background-color: #ff8f2d;
 }
 
 nav.bg-solid .navbar-header .navbar-brand img.logo-blue {
@@ -1664,10 +1665,6 @@ End Testimonial
 /*--------------------------------
 Team
 ----------------------------------*/
-
-.sec-team .bg-img {
-  background-image: url(../img/bg/bg-1.jpg);
-}
 
 .sec-team h2 {
   margin-top: 13px;
@@ -3414,6 +3411,9 @@ Styles for smaller devices
     bottom: 70px;
     right: 33px;
   }
+  .sec-team .row > [class^="col-"] {
+    margin-bottom: 30px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -3794,10 +3794,10 @@ Styles for smaller devices
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    background-color: #4776e6;
-    background-image: -moz-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-    background-image: -webkit-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
-    background-image: -ms-linear-gradient(0deg, #4776e6 0%, #8E54E9 100%);
+    background-color: #ff8f2d;
+    background-image: -moz-linear-gradient(0deg, #ff8f2d 0%, #d2641a 100%);
+    background-image: -webkit-linear-gradient(0deg, #ff8f2d 0%, #d2641a 100%);
+    background-image: -ms-linear-gradient(0deg, #ff8f2d 0%, #d2641a 100%);
   }
 
   header {
@@ -4332,6 +4332,9 @@ Styles for smaller devices
   .sec-features [class^="col-"]:not(.container-acting).feat-top-left {
     top: 100px;
     left: 5px;
+  }
+  .sec-team .row > [class^="col-"] {
+    margin-bottom: 30px;
   }
 
   .sec-features [class^="col-"]:not(.container-acting).feat-top-right {
