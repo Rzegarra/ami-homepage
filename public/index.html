@@ -9,6 +9,7 @@
         <!-- SITE TITLE -->
         <title>Amica </title>
         <!-- STYLESHEETS -->
+        <link rel="stylesheet" href="css/jquery.floating-social-share.min.css" />        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/linearicons.css">
@@ -27,6 +28,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="img/ico3.png">
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        
         <!--Loader-->
         <div class="loading">
             <div class="loading-center">
@@ -416,5 +418,21 @@
         <script type="text/javascript" src="js/ytp-min.js"></script>
         <script type="text/javascript" src="js/custom-animations.js"></script>
         <script type="text/javascript" src="js/theme.js"></script>
+        <script type="text/javascript" src="js/jquery.floating-social-share.min.js"></script>
+        <script>
+          $("body").floatingSocialShare({
+            buttons: [
+              "facebook", "google-plus", "pinterest", "telegram", "twitter", "whatsapp" ],
+            counter: true,
+            text: "compartir con: ",
+            url: "www.amica.pe",
+            text_title_case: false, // if set true, then will convert share texts to title case like Share With G+
+            description: $('meta[name="description"]').attr("content"), // your description, default is current page's description
+            media: $('meta[property="og:image"]').attr("content"), // pinterest media
+            popup: true, // open links in popup
+            popup_width: 400, // the sharer popup width, default is 400px
+            popup_height: 300 // the sharer popup height, default is 300px
+          });
+        </script>
     </body>
 </html>
