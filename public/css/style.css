@@ -1846,11 +1846,11 @@ Pricing
 }
 
 .sec-pricing [class^="col-"] .wrapper h1::before {
-  content: '$';
+  content: 'S/';
 }
 
 .sec-pricing [class^="col-"] .wrapper h1::after {
-  content: '/mo';
+  content: '/mes';
 }
 
 .sec-pricing [class^="col-"] .wrapper h1 + hr {
